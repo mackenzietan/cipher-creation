@@ -37,7 +37,11 @@ module.exports.symbolCipher = (str) => {
     'e': '3',
     '3': 'e',
     'b': '6',
-    '6': 'b'
+    '6': 'b',
+    'v': '^',
+    '^': 'v',
+    'q': '?',
+    '?': 'q'
   }
 
   let output = '';
